@@ -7,4 +7,5 @@ current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 with open('docs/index.html', 'a') as file:
     file.write(f'<p>Updated automatically by Python script on {current_time}!</p>\n')
 
-print("Documentation updated with date and time: " + {current_time})
+print("Documentation updated with date and time: " + current_time)
+#test commit
